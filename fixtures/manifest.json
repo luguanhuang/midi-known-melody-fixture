@@ -1,0 +1,17 @@
+{
+  "name": "known-melody-mp3-to-midi",
+  "input": {
+    "file": "known-melody.mp3",
+    "durationSeconds": 5.85,
+    "channels": 1,
+    "sampleRateHz": 44100,
+    "sha256": "d23b4a116108db50b17d01214ca9142b850b32c40320603f32d9cbcd26e0c805"
+  },
+  "output": {
+    "file": "known-melody.mid",
+    "format": "Standard MIDI file",
+    "expectedNoteOnEvents": 8,
+    "sha256": "a6133845baf34f6e4ed4b504cdabd90b32bb6b8ab48cdaf2ad1ccf870cf90820"
+  },
+  "scope": "The event count applies only to this clean, synthetic fixture."
+}
