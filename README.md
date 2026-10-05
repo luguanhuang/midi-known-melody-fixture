@@ -1,5 +1,7 @@
 # Known Melody MP3-to-MIDI Fixture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23157004.svg)](https://doi.org/10.5281/zenodo.23157004)
+
 A small, reproducible fixture for checking a browser-based dominant-melody MP3-to-MIDI workflow.
 
 The fixture is deliberately narrow: a 5.85-second mono MP3 with eight designed tones and one Standard MIDI output produced by the public MIDI Convert browser tool. It is useful for checking that a result contains the expected number of note-on events before someone uses a more complex recording.
@@ -42,3 +44,7 @@ It confirms that the recorded MIDI fixture contains eight note-on events for the
 ## License
 
 The fixture, manifest, and checker in this repository are released under the MIT License. The audio is a synthetic test phrase created for this fixture, not a recording of a commercial song.
+
+## Citation
+
+Known Melody MP3-to-MIDI Fixture, version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.23157004
